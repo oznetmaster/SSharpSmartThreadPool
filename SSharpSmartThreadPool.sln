@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSharpSmartThreadPool", "SSharpSmartThreadPool\SSharpSmartThreadPool.csproj", "{06299ED2-056A-427C-8C84-D716197080EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSharpSmartThreadPoolTests", "SSharpSmartThreadPoolTests\SSharpSmartThreadPoolTests.csproj", "{43AEC3F3-0D6D-406C-B4B1-45FCEAA8817A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSharpCrestronExtensionsLibrary", "..\..\Simpl# Libraries\SSharpCrestronExtensionsLibrary\SSharpCrestronExtensionsLibrary\SSharpCrestronExtensionsLibrary.csproj", "{9384CC19-3161-498C-897C-2E972C2628A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSharpNUnitLiteSSharpTestRunner", "..\SSharpNUnitLite3\SSharpNUnitLiteSSharpTestRunner\SSharpNUnitLiteSSharpTestRunner.csproj", "{7E041F2A-01CA-4770-B485-BC9AE41881E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSharpThreadingLibrary", "..\..\Simpl# Libraries\SSharpThreadingLibrary\SSharpThreadingLibrary\SSharpThreadingLibrary.csproj", "{779FD9FC-526E-47A0-9BB8-AA86F8D75032}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = ..\\SSharpNUnitLite3\\SSharpNUnitLiteSSharpTestRunner\\SSharpNUnitLiteSSharpTestRunner.csproj
+		SccProjectName0 = $/S#\u0020Pro\u0020Libraries/SSharpNUnitLite3/SSharpNUnitLiteSSharpTestRunner
+		SccLocalPath0 = ..\\SSharpNUnitLite3\\SSharpNUnitLiteSSharpTestRunner
+		SccProvider0 = MSSCCI:SourceGear\u0020Vault\u0020Professional\u0020Classic\u0020Client
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = ..\\..\\Simpl#\u0020Libraries\\SSharpThreadingLibrary\\SSharpThreadingLibrary\\SSharpThreadingLibrary.csproj
+		SccProjectName1 = $/S#\u0020Libraries/SSharpThreadingLibrary
+		SccLocalPath1 = ..\\..\\Simpl#\u0020Libraries\\SSharpThreadingLibrary\\SSharpThreadingLibrary
+		SccProvider1 = MSSCCI:SourceGear\u0020Vault\u0020Professional\u0020Classic\u0020Client
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06299ED2-056A-427C-8C84-D716197080EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06299ED2-056A-427C-8C84-D716197080EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06299ED2-056A-427C-8C84-D716197080EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06299ED2-056A-427C-8C84-D716197080EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AEC3F3-0D6D-406C-B4B1-45FCEAA8817A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AEC3F3-0D6D-406C-B4B1-45FCEAA8817A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AEC3F3-0D6D-406C-B4B1-45FCEAA8817A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AEC3F3-0D6D-406C-B4B1-45FCEAA8817A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9384CC19-3161-498C-897C-2E972C2628A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9384CC19-3161-498C-897C-2E972C2628A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9384CC19-3161-498C-897C-2E972C2628A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9384CC19-3161-498C-897C-2E972C2628A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E041F2A-01CA-4770-B485-BC9AE41881E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E041F2A-01CA-4770-B485-BC9AE41881E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E041F2A-01CA-4770-B485-BC9AE41881E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E041F2A-01CA-4770-B485-BC9AE41881E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779FD9FC-526E-47A0-9BB8-AA86F8D75032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779FD9FC-526E-47A0-9BB8-AA86F8D75032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779FD9FC-526E-47A0-9BB8-AA86F8D75032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779FD9FC-526E-47A0-9BB8-AA86F8D75032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
