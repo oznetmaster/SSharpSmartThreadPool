@@ -109,14 +109,12 @@
         <ProgramIdTag>SSharpSmartThreadPoo</ProgramIdTag>
         <SystemName>SSharpSmartThreadPool</SystemName>
         <Programmer />
-        <ArchiveFilename>C:\Projects\Crestron\Simpl# Pro Libraries\SSharpSmartThreadPool\SSharpSmartThreadPool\bin\Release\SSharpSmartThreadPool.cplz</ArchiveFilename>
+        <ArchiveFilename>C:\Projects\Crestron\Simpl# Pro Libraries\SSharpSmartThreadPool\SSharpSmartThreadPool\bin\Debug\SSharpSmartThreadPool.cplz</ArchiveFilename>
         <MinFirmwareVersion>1.009.0029</MinFirmwareVersion>
-        <CompiledOn>3/13/2015 10:26:30 AM</CompiledOn>
+        <CompiledOn>3/14/2015 4:17:08 AM</CompiledOn>
         <AdditionalInfo />
         <EmbedSourceArchive>False</EmbedSourceArchive>
-        <CopyTo>
-          <DebugAnyCPU />
-        </CopyTo>
+        <CopyTo />
         <OriginalReferenceSources>
           <Reference sourceFilename="../../../Simpl%23%20Libraries/SSharpThreadingLibrary/SSharpThreadingLibrary/bin/Release/SSharpThreadingLibrary.dll" referenceName="SSharpThreadingLibrary" />
         </OriginalReferenceSources>
