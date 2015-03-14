@@ -141,13 +141,10 @@
         <Programmer />
         <ArchiveFilename>C:\Projects\Crestron\Simpl# Pro Libraries\SSharpSmartThreadPool\SSharpSmartThreadPoolTests\bin\Debug\SSharpSmartThreadPoolTests.cplz</ArchiveFilename>
         <MinFirmwareVersion>1.009.0029</MinFirmwareVersion>
-        <CompiledOn>3/13/2015 10:04:01 AM</CompiledOn>
+        <CompiledOn>3/14/2015 11:00:21 AM</CompiledOn>
         <AdditionalInfo />
         <EmbedSourceArchive>False</EmbedSourceArchive>
-        <CopyTo>
-          <DebugAnyCPU />
-          <ReleaseAnyCPU />
-        </CopyTo>
+        <CopyTo />
         <OriginalReferenceSources>
           <Reference sourceFilename="../../SSharpNUnitLite3/SSharpNunitLite/bin/Release/SSharpNunitLite.dll" referenceName="SSharpNunitLite" />
           <Reference sourceFilename="../../../Simpl%23%20Libraries/SSharpCrestronExtensionsLibrary/SSharpCrestronExtensionsLibrary/bin/Release/SSharpCrestronExtensionsLibrary.dll" referenceName="SSharpCrestronExtensionsLibrary" />

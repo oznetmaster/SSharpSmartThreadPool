@@ -1657,7 +1657,14 @@ namespace Amib.SSharpThreading
 
 			if (abortExecution)
 				{
-				foreach (ThreadEntry threadEntry in _workerThreads.Values)
+				ThreadEntry[] threadEntries;
+				lock (_workerThreads.SyncRoot)
+					{
+					threadEntries = new ThreadEntry[_workerThreads.RealCount];
+					_workerThreads.Values.CopyTo (threadEntries, 0);
+					}
+
+				foreach (ThreadEntry threadEntry in threadEntries)
 					{
 					WorkItem workItem = threadEntry.CurrentWorkItem;
 					if (null != workItem &&
