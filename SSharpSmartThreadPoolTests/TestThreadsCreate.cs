@@ -67,6 +67,7 @@ namespace SmartThreadPoolTests
 			}
 
 
+#if !SSHARP
 		// Can't run this test, StackOverflowException crashes the application and can't be catched and ignored
 		//[Test]
 		public void NotTestThreadsMaxStackSize ()
@@ -109,6 +110,7 @@ namespace SmartThreadPoolTests
 
 			return true;
 			}
+#endif
 		}
 
 	internal class ThreadContextState
